@@ -1,0 +1,9 @@
+{
+  "output": "generated/inflow.",
+  "chain": "mumbai",
+  "datasources": [
+    { "address": "0x696b7880Cd45765013C34CD8F98E31528c44FcB1", "startBlock": 15845987, "module": [ "erc721"] },
+    { "address": "0xd08b0E1a8f867d405299Cee4a81530B227918D57", "startBlock":  15847939, "module": [ "erc1155"] },
+    { "address": "0xFB397854d9cF9D0308EED51dF5B044b68feFa054", "startBlock":  15848712, "module": [ "erc1155"] }
+  ]
+}
