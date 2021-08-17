@@ -1,9 +1,10 @@
 {
   "output": "generated/inflow.",
-  "chain": "mumbai",
+  "chain": "rinkeby",
   "datasources": [
-    { "address": "0x696b7880Cd45765013C34CD8F98E31528c44FcB1", "startBlock": 15845987, "module": [ "erc721"] },
-    { "address": "0xd08b0E1a8f867d405299Cee4a81530B227918D57", "startBlock":  15847939, "module": [ "erc1155"] },
-    { "address": "0xFB397854d9cF9D0308EED51dF5B044b68feFa054", "startBlock":  15848712, "module": [ "erc1155"] }
+    { "address": "0x7E6CeeD87fC46e4D166351258336E42EB0781a52", "startBlock": 15845987, "module": [ "erc721"] },
+    { "address": "0xd1D71826448FF472b0c9a519f2b8F5ef2E5d590B", "startBlock":  15847939, "module": [ "erc1155"] },
+    { "address": "0xC9d13B3cf04e5e444E0b91052DAf52921ee1D908", "startBlock":  15848712, "module": [ "erc1155BC"] },
+    { "address": "0x696b7880Cd45765013C34CD8F98E31528c44FcB1", "startBlock":  15848712, "module": [ "SocialTokenFactory"] }
   ]
 }

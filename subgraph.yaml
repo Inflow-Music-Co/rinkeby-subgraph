@@ -4,9 +4,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: erc721
-    network: mumbai
+    network: rinkeby
     source:
-      address: "0x696b7880Cd45765013C34CD8F98E31528c44FcB1"
+      address: "0x7E6CeeD87fC46e4D166351258336E42EB0781a52"
       abi: IERC721
       startBlock: 15845987
     mapping:
@@ -28,9 +28,9 @@ dataSources:
       file: ./node_modules/@openzeppelin/subgraphs/src/datasources/erc721.ts
   - kind: ethereum/contract
     name: erc1155
-    network: mumbai
+    network: rinkeby
     source:
-      address: "0xd08b0E1a8f867d405299Cee4a81530B227918D57"
+      address: "0xd1D71826448FF472b0c9a519f2b8F5ef2E5d590B"
       abi: IERC1155
       startBlock: 15847939
     mapping:
@@ -54,9 +54,9 @@ dataSources:
       file: ./node_modules/@openzeppelin/subgraphs/src/datasources/erc1155.ts
   - kind: ethereum/contract
     name: erc1155-2
-    network: mumbai
+    network: rinkeby
     source:
-      address: "0xFB397854d9cF9D0308EED51dF5B044b68feFa054"
+      address: "0xC9d13B3cf04e5e444E0b91052DAf52921ee1D908"
       abi: IERC1155
       startBlock: 15848712
     mapping:
@@ -79,10 +79,10 @@ dataSources:
           handler: handleURI
       file: ./node_modules/@openzeppelin/subgraphs/src/datasources/erc1155.ts
   - kind: ethereum/contract
-    name: Contract
-    network: mumbai
+    name: SocialTokenFactory
+    network: rinkeby
     source:
-      address: "0x193e135F155120203dc99eaC2B9A582670a51a23"
+      address: "0x696b7880Cd45765013C34CD8F98E31528c44FcB1"
       abi: Contract
     mapping:
       kind: ethereum/events
