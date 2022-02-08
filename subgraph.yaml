@@ -98,6 +98,8 @@ dataSources:
         - name: Contract
           file: ./abis/Contract.json
       eventHandlers:
+        - event: SocialTokenCreated(indexed address, indexed, adress)
+          handler: handleSocialTokenCreated
         - event: Approval(indexed address,indexed address,uint256)
           handler: handleApproval
         - event: Burned(indexed address,indexed uint256,indexed uint256,uint256,uint256)
